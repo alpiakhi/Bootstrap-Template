@@ -1,0 +1,27 @@
+.custom-img{
+
+    height: 700px;
+    background-size:cover ;
+
+} 
+.custome-slidertext{
+    color: white !important;
+
+}
+.custome-slidertext h5{
+    font-size: 30px !important;
+
+}
+.customcardimg{
+    height: 300px;
+}
+.card-text{
+    color: tomato;
+}
+.card-title{
+    text-align: center;
+    font-style: italic;
+    
+}
+
+
