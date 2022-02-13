@@ -1,28 +1,66 @@
-.custom-img{
+.custom-img {
 
     height: 700px;
-    background-size:cover ;
+    background-size: cover;
 
-} 
-.custome-slidertext{
+}
+
+.custome-slidertext {
     color: white !important;
 
 }
-.custome-slidertext h5{
+
+.custome-slidertext h5 {
     font-size: 30px !important;
 
 }
-.customcardimg{
+
+.customcardimg {
     height: 300px;
 }
-.card-text{
+
+.card-text {
     color: tomato;
 }
-.card-title{
+
+.card-title {
     text-align: center;
     font-style: italic;
 }
 
+/* About page*/
+.paper {
+    background: gray;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
 
+/*login page*/
+#form {
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 10px 10px #808080;
+    background: #FF512F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
 
+}
 
+#Login-body, #Register-body {
+    background: #1D976C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #1D976C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    width: 100%;
+}
